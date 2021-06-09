@@ -206,7 +206,7 @@ docker service inspect --pretty webserver
 - List the tasks of service and explain what task is.
 
 ```bash
-docker service ps webserver
+docker service ps webserver 
 ```
 
 - Fetch the logs of the service or a task.
@@ -218,13 +218,13 @@ docker service logs webserver
 - Reboot a worker node and explain the last situation on visualizer app.
 
 ```bash
-sudo reboot -f
+sudo reboot -f   (stop dan start)
 ```
 
 - Scale up services and show the changes on visualizer app.
 
 ```bash
-docker service scale webserver=10
+docker service scale webserver=10 #(creating add more container)
 ```
 
 - Scale down services and show the changes on visualizer app.
