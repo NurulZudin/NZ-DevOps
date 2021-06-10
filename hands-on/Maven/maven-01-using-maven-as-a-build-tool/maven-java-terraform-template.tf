@@ -13,7 +13,7 @@ provider "aws" {
 resource "aws_instance" "maven-ec2" {
   ami             = "ami-0947d2ba12ee1ff75"
   instance_type   = "t2.micro"
-  key_name        = "Firstkey"
+  key_name        = "mattskey"
   //  Write your pem file name
   security_groups = ["maven-sec-grp"]
 
