@@ -4,7 +4,7 @@ services:
     database:
         image: mysql:5.7
         environment:
-            MYSQL_ROOT_PASSWORD: P123456p 
+            MYSQL_ROOT_PASSWORD: P123456p
             MYSQL_DATABASE: bookstore_db
             MYSQL_USER: clarusway
             MYSQL_PASSWORD: Clarusway_1 
@@ -20,5 +20,5 @@ services:
         networks:
             - clarusnet
 networks:
-    clarusnet: #calling out of container #nama network
+    clarusnet:
         driver: bridge
